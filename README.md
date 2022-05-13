@@ -8,6 +8,11 @@ Note: Please provide the URL as shown below - starting with `https://` without a
 
 ```shell
 go build crawler
-./crawler --starting-url "https://monzo.com"
+./crawler --starting-url "https://improbable.io"
+```
+
+## How to test
+```shell
+go test -v ./...
 ```
 

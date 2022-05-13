@@ -1,12 +1,12 @@
 package parser
 
 import (
-	"crawler/list"
-	"crawler/queue"
-	"crawler/robots"
 	"io"
 	"strings"
 
+	"github.com/danni-popova/go-crawler/list"
+	"github.com/danni-popova/go-crawler/queue"
+	"github.com/danni-popova/go-crawler/robots"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/net/html"
 )

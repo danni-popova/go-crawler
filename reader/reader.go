@@ -1,11 +1,11 @@
 package reader
 
 import (
-	"crawler/list"
 	"io"
 	"net/http"
 	"net/url"
 
+	"github.com/danni-popova/go-crawler/list"
 	"github.com/sirupsen/logrus"
 )
 

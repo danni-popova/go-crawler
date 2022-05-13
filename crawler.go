@@ -1,11 +1,11 @@
 package main
 
 import (
-	"crawler/parser"
-	"crawler/queue"
-	"crawler/reader"
 	"sync"
 
+	"github.com/danni-popova/go-crawler/parser"
+	"github.com/danni-popova/go-crawler/queue"
+	"github.com/danni-popova/go-crawler/reader"
 	"github.com/sirupsen/logrus"
 )
 

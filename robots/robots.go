@@ -1,10 +1,10 @@
 package robots
 
 import (
-	"crawler/reader"
 	"io"
 	"strings"
 
+	"github.com/danni-popova/go-crawler/reader"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/exp/slices"
 )
